@@ -10,10 +10,13 @@ var jade = require('gulp-jade');
 var json = {
   staff_name: 'นายสถิตย์  เรียนพิศ',
   staff_position: 'นักวิชาการคอมพิวเตอร์',
+  order_date: '31 ตุลาคม พ.ศ. 2558',
   items: [
-    {id: 1, product_name: 'ไม้กวดทางมะพร้าว', unit: 'ด้าม', price: 50, order_qty: 5, approve_qty: 5, totalPrice: 250},
+    {id: 1, product_name: 'ไม้กวาดทางมะพร้าว', unit: 'ด้าม', price: 50, order_qty: 5, approve_qty: 5, totalPrice: 250},
     {id: 2, product_name: 'กระดาษ A4 Double A', unit: 'กล่อง', price: 200, order_qty: 3, approve_qty: 3, totalPrice: 600},
     {id: 3, product_name: 'ตลับหมึกเลเซอร์ HP A40', unit: 'กล่อง', price: '1,350', order_qty: 6, approve_qty: 6, totalPrice: '8,100'},
+    {id: 4, product_name: 'ถุงมือ เบอร์ 21', unit: 'กล่อง', price: '80', order_qty: 6, approve_qty: 6, totalPrice: '480'},
+    {id: 5, product_name: 'ตะกร้าขนาดใหญ่ สีน้ำเงิน สำหรับใส่ผ้า', unit: 'ผืน', price: '100', order_qty: 5, approve_qty: 4, totalPrice: '400'}
   ]
 };
 

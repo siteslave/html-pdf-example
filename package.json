@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^0.26.2",
+    "gulp": "^3.9.0",
+    "gulp-data": "^1.2.0",
+    "gulp-jade": "^1.1.0",
+    "html-pdf": "^1.4.0",
+    "moment": "^2.10.6"
+  }
 }
